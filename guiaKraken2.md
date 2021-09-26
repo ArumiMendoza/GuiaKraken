@@ -7,7 +7,7 @@ En esta guia nos basaremos en el trabajo de Ottoni et al. (2021) y Fellows et al
 
 ## Pasos a seguir
 
-1. Primero hay que descargar los metadatos de interés, en este caso utilizaremos genomas completos de bacterias, arqueas, plantas, mamíferos, hongos, cloroplastos, virus y eucariotes. Usaremos la base de datos de genomas RefSeq que se actualizó el 13 de septiembre de 2021.
+1. Primero hay que descargar los metadatos de interés, en este caso utilizaremos genomas completos de bacterias, arqueas, plantas, animales , hongos, cloroplastos, virus y eucariotes. Usaremos la base de datos de genomas RefSeq que se actualizó el 13 de septiembre de 2021.
 
         DBNAME=customkraken2_Sep2021
         DBSIZE=<tamaño de base de datos en bytes>
