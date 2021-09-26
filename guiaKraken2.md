@@ -2,7 +2,7 @@
 
 ## Overview
 
-En esta guia nos basaremos en el trabajo de Ottoni et al. (2021) y Fellows et al. (2021) para conocer los pasos a realizar para construir una base de datos personalizada en el programa Kraken2
+En esta guia nos basaremos en el trabajo de Ottoni et al. (2021) y Fellows et al. (2021) para conocer los pasos a realizar para construir una base de datos personalizada en el programa Kraken2.
 
 
 ## Pasos a seguir
