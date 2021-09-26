@@ -16,8 +16,7 @@ En esta guia nos basaremos en el trabajo de Ottoni et al. (2021) y Fellows et al
         kraken2-build --download-library bacteria --threads         $THREADS --db $DBNAME
         kraken2-build --download-library viral --threads        $THREADS --db $DBNAME
         kraken2-build --download-library archaea --threads        $THREADS --db $DBNAME
-        kraken2-build --download-library fungi
-        --threads        $THREADS --db $DBNAME
+        kraken2-build --download-library fungi --threads        $THREADS --db $DBNAME
         kraken2-build --download-library animals
         --threads        $THREADS --db $DBNAME
         kraken2-build --download-library plants
@@ -29,5 +28,5 @@ En esta guia nos basaremos en el trabajo de Ottoni et al. (2021) y Fellows et al
 
         kraken2 --db $DBNAME --threads $THREADS filename.collapsed.gz --output filename.krk --gzip-compressed --report filename.krk.report
 
-3. Posteriormente se ejecutará Bracken para obtener datos de cuantificación reales. Primero se construye la base de datos de Bracken y luego se ejecutan las muestras.
+
 
