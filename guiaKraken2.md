@@ -18,7 +18,8 @@ En esta guia nos basaremos en el trabajo de Ottoni et al. (2021) y Fellows et al
         kraken2-build --download-library archaea --threads        $THREADS --db $DBNAME
         kraken2-build --download-library fungi --threads        $THREADS --db $DBNAME
         kraken2-build --download-library animals --threads        $THREADS --db $DBNAME
-        kraken2-build --download-library plants --threads       $THREADS --db $DBNAME kraken2-build --build --threads $THREADS --db $DBNAME       --max-db-size $DBSIZE 
+        kraken2-build --download-library plants --threads       $THREADS --db $DBNAME 
+        kraken2-build --build --threads $THREADS --db $DBNAME       --max-db-size $DBSIZE 
 ### Clasificación taxonómica de las lecturas con la base de datos personalizada en Kraken2
 
 2. La base de datos personalizada se utilizará para realizar la clasificación taxonómica de las lecturas previamente procesadas
